@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VatCalculator_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vat Calculator +" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxi-8f-QMU">
+                                <rect key="frame" x="20" y="50" width="280" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter amount:(eg:100)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-R8-WaV">
+                                <rect key="frame" x="20" y="104" width="280" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="Uo3-gv-2lJ" userLabel="Rate Button Stack View">
+                                <rect key="frame" x="30" y="168" width="260" height="34.5"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ody-Nt-ddh">
+                                        <rect key="frame" x="0.0" y="0.0" width="60.5" height="34.5"/>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="%1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickedRateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sjL-Rr-oFP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0c7-mE-BSh">
+                                        <rect key="frame" x="99.5" y="0.0" width="61" height="34.5"/>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="%10"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickedRateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Y9-f4-pkl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeU-yw-48f">
+                                        <rect key="frame" x="199.5" y="0.0" width="60.5" height="34.5"/>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="%20"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickedRateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dw3-ga-dBC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Nz0-Hz-4gu" userLabel="Special Rate Stack View">
+                                <rect key="frame" x="20" y="232.5" width="280" height="34.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="special rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaE-12-oTB">
+                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="34.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(eg:5)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFb-E1-YRQ">
+                                        <rect key="frame" x="106.5" y="0.0" width="67" height="34.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQ9-ci-CGw">
+                                        <rect key="frame" x="187.5" y="0.0" width="92.5" height="34.5"/>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="calculate"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickedRateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlN-xv-ArA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="X6K-ZH-T6B" userLabel="Calculate Label Stack View">
+                                <rect key="frame" x="10" y="262.5" width="300" height="203.5"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Kd-IK-oEW">
+                                        <rect key="frame" x="63" y="0.0" width="174" height="32"/>
+                                        <segments>
+                                            <segment title="Add Vat"/>
+                                            <segment title="Deduct Vat"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="calculateSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="NH2-qH-ZBd"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="transaction amount: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64d-86-cTE">
+                                        <rect key="frame" x="72" y="59" width="156.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-oX-RC0">
+                                        <rect key="frame" x="77" y="107.5" width="146" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vat amount: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-5H-aF3">
+                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="34"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zct-d9-BFI" userLabel="copy">
+                                                <rect key="frame" x="94.5" y="0.0" width="51.5" height="34"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="document.on.document.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="clickedCopyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uX1-ir-iJt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Wx-ow-52F">
+                                        <rect key="frame" x="97" y="169.5" width="106.5" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLb-je-DDn">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="34"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUZ-TX-b03">
+                                                <rect key="frame" x="55" y="0.0" width="51.5" height="34"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="document.on.document.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="clickedCopyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giK-dd-LUS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vA7-Fg-2He" userLabel="Supports Stack View">
+                                <rect key="frame" x="20" y="471" width="280" height="77"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-8r-Fav">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="34.5"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="envelope.fill" catalog="system" title=" contact us"/>
+                                        <connections>
+                                            <action selector="clickedContactUsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="77G-XI-E6c"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMO-3o-3yb">
+                                        <rect key="frame" x="0.0" y="42.5" width="280" height="34.5"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="lock.fill" catalog="system" title=" privacy policy"/>
+                                        <connections>
+                                            <action selector="clickedPrivacyPolicyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB9-yz-fz9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X6K-ZH-T6B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="7pa-ny-JR4"/>
+                            <constraint firstItem="Uo3-gv-2lJ" firstAttribute="top" secondItem="wlD-R8-WaV" secondAttribute="bottom" constant="30" id="8EC-Iq-lRv"/>
+                            <constraint firstItem="Mxi-8f-QMU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8db-mv-JZ3"/>
+                            <constraint firstItem="Mxi-8f-QMU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="8nD-50-hHv"/>
+                            <constraint firstItem="Nz0-Hz-4gu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Dwo-sJ-J96"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nz0-Hz-4gu" secondAttribute="trailing" constant="20" id="GEX-hg-GpO"/>
+                            <constraint firstItem="wlD-R8-WaV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KzX-LG-s0k"/>
+                            <constraint firstItem="X6K-ZH-T6B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="PEg-KE-XEx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vA7-Fg-2He" secondAttribute="trailing" constant="20" id="QzJ-7s-zvy"/>
+                            <constraint firstItem="Nz0-Hz-4gu" firstAttribute="top" secondItem="Uo3-gv-2lJ" secondAttribute="bottom" constant="30" id="Uzb-Po-0fI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uo3-gv-2lJ" secondAttribute="trailing" constant="30" id="V7U-ly-abH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vA7-Fg-2He" secondAttribute="bottom" constant="20" id="WjH-8E-l0l"/>
+                            <constraint firstItem="vA7-Fg-2He" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZIw-MT-1wm"/>
+                            <constraint firstItem="wlD-R8-WaV" firstAttribute="top" secondItem="Mxi-8f-QMU" secondAttribute="bottom" constant="30" id="daB-97-czE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wlD-R8-WaV" secondAttribute="trailing" constant="20" id="guh-f3-quq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mxi-8f-QMU" secondAttribute="trailing" constant="20" id="hC9-Eo-3oE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X6K-ZH-T6B" secondAttribute="trailing" constant="10" id="jfc-m4-xsK"/>
+                            <constraint firstItem="Uo3-gv-2lJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="un1-qA-At6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="amountTextField" destination="wlD-R8-WaV" id="5Qe-lE-tTe"/>
+                        <outlet property="appTitleLabel" destination="Mxi-8f-QMU" id="JxV-UI-hmU"/>
+                        <outlet property="clickedCalculateButtonOutlet" destination="vQ9-ci-CGw" id="Kl1-4Z-UbL"/>
+                        <outlet property="clickedOneRateButtonOutlet" destination="ody-Nt-ddh" id="Wpz-0v-f4a"/>
+                        <outlet property="clickedTenRateButtonOutlet" destination="0c7-mE-BSh" id="25g-9p-7eP"/>
+                        <outlet property="clickedTwentyRateButtonOutlet" destination="xeU-yw-48f" id="E2R-qG-QGg"/>
+                        <outlet property="contactUsTitle" destination="uXZ-8r-Fav" id="NxV-pE-XJk"/>
+                        <outlet property="privacyPolicyTitle" destination="RMO-3o-3yb" id="HZt-8J-NWd"/>
+                        <outlet property="resultLabel" destination="SLb-je-DDn" id="wEq-c0-WJC"/>
+                        <outlet property="sgControlOutlet" destination="1Kd-IK-oEW" id="CBI-X8-AoK"/>
+                        <outlet property="specialRateLabel" destination="uaE-12-oTB" id="Tyl-Hi-iSG"/>
+                        <outlet property="specialRateTextField" destination="aFb-E1-YRQ" id="Izr-4t-p4W"/>
+                        <outlet property="transactionAmountLabel" destination="64d-86-cTE" id="yU2-J4-1jD"/>
+                        <outlet property="vatAmountLabel" destination="ogV-5H-aF3" id="HNQ-Bj-ZEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="3.1690140845070425"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="document.on.document.fill" catalog="system" width="112" height="128"/>
+        <image name="envelope.fill" catalog="system" width="128" height="85"/>
+        <image name="lock.fill" catalog="system" width="111" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

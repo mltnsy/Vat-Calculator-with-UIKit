@@ -1,0 +1,69 @@
+
+/* Class = "UIButton"; configuration.title = "%10"; ObjectID = "0c7-mE-BSh"; */
+"0c7-mE-BSh.configuration.title" = "%10";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0c7-mE-BSh"; */
+"0c7-mE-BSh.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; 1Kd-IK-oEW.segmentTitles[0] = "Add Vat"; ObjectID = "1Kd-IK-oEW"; */
+"1Kd-IK-oEW.segmentTitles[0]" = "Add Vat";
+
+/* Class = "UISegmentedControl"; 1Kd-IK-oEW.segmentTitles[1] = "Deduct Vat"; ObjectID = "1Kd-IK-oEW"; */
+"1Kd-IK-oEW.segmentTitles[1]" = "Deduct Vat";
+
+/* Class = "UILabel"; text = "transaction amount: "; ObjectID = "64d-86-cTE"; */
+"64d-86-cTE.text" = "transaction amount: ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BUZ-TX-b03"; */
+"BUZ-TX-b03.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Vat Calculator +"; ObjectID = "Mxi-8f-QMU"; */
+"Mxi-8f-QMU.text" = "Vat Calculator +";
+
+/* Class = "UIButton"; configuration.title = " privacy policy"; ObjectID = "RMO-3o-3yb"; */
+"RMO-3o-3yb.configuration.title" = " privacy policy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RMO-3o-3yb"; */
+"RMO-3o-3yb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "result: "; ObjectID = "SLb-je-DDn"; */
+"SLb-je-DDn.text" = "result: ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zct-d9-BFI"; */
+"Zct-d9-BFI.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "(eg:5)"; ObjectID = "aFb-E1-YRQ"; */
+"aFb-E1-YRQ.placeholder" = "(eg:5)";
+
+/* Class = "UIButton"; configuration.title = "%1"; ObjectID = "ody-Nt-ddh"; */
+"ody-Nt-ddh.configuration.title" = "%1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ody-Nt-ddh"; */
+"ody-Nt-ddh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "vat amount: "; ObjectID = "ogV-5H-aF3"; */
+"ogV-5H-aF3.text" = "vat amount: ";
+
+/* Class = "UIButton"; configuration.title = " contact us"; ObjectID = "uXZ-8r-Fav"; */
+"uXZ-8r-Fav.configuration.title" = " contact us";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uXZ-8r-Fav"; */
+"uXZ-8r-Fav.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "special rate:"; ObjectID = "uaE-12-oTB"; */
+"uaE-12-oTB.text" = "special rate:";
+
+/* Class = "UIButton"; configuration.title = "calculate"; ObjectID = "vQ9-ci-CGw"; */
+"vQ9-ci-CGw.configuration.title" = "calculate";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vQ9-ci-CGw"; */
+"vQ9-ci-CGw.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "enter amount:(eg:100)"; ObjectID = "wlD-R8-WaV"; */
+"wlD-R8-WaV.placeholder" = "enter amount:(eg:100)";
+
+/* Class = "UIButton"; configuration.title = "%20"; ObjectID = "xeU-yw-48f"; */
+"xeU-yw-48f.configuration.title" = "%20";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xeU-yw-48f"; */
+"xeU-yw-48f.normalTitle" = "Button";

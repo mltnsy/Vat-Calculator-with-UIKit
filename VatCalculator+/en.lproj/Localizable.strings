@@ -1,0 +1,20 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "Vat Calculator +";
+"enter_amount" = "enter amount:(eg:100)";
+"special_rate" = "special rate: ";
+"enter_special_rate" = "(eg:5)";
+"calculate" = "calculate";
+"add_vat" = "Add Vat";
+"deduct_vat" = "Deduct Vat";
+"transaction_amount" = "transaction amount: ";
+"vat_amount" = "vat amount: ";
+"result" = "result: ";
+"contact_us" = " contact us";
+"privacy_policy" = " privacy policy";
+

@@ -1,0 +1,122 @@
+{
+  "ar": {
+    "vat_calculator_+": "حاسبة الضريبة +",
+    "special_rate: ": "سعر خاص: ",
+    "calculate": "احسب",
+    "add_vat": "أضف الضريبة",
+    "deduct_vat": "اطرح الضريبة",
+    "transaction_amount: ": "مبلغ المعاملة: ",
+    "vat_amount": "مقدار الضريبة: ",
+    "result": "النتيجة: ",
+    "contact_us": "اتصل بنا",
+    "privacy_policy": "سياسة الخصوصية"
+  },
+  "zh": {
+    "vat_calculator_+": "增值税计算器 +",
+    "special_rate: ": "特别税率: ",
+    "calculate": "计算",
+    "add_vat": "加增值税",
+    "deduct_vat": "减增值税",
+    "transaction_amount: ": "交易金额: ",
+    "vat_amount": "增值税金额: ",
+    "result": "结果: ",
+    "contact_us": "联系我们",
+    "privacy_policy": "隐私政策"
+  },
+  "fr": {
+    "vat_calculator_+": "Calculateur TVA +",
+    "special_rate: ": "taux spécial: ",
+    "calculate": "calculer",
+    "add_vat": "Ajouter TVA",
+    "deduct_vat": "Déduire TVA",
+    "transaction_amount: ": "montant de la transaction: ",
+    "vat_amount": "montant TVA: ",
+    "result": "résultat: ",
+    "contact_us": "contactez-nous",
+    "privacy_policy": "politique de confidentialité"
+  },
+  "de": {
+    "vat_calculator_+": "MwSt-Rechner +",
+    "special_rate: ": "Sondertarif: ",
+    "calculate": "berechnen",
+    "add_vat": "MwSt hinzufügen",
+    "deduct_vat": "MwSt abziehen",
+    "transaction_amount: ": "Transaktionsbetrag: ",
+    "vat_amount": "MwSt-Betrag: ",
+    "result": "Ergebnis: ",
+    "contact_us": "Kontaktieren Sie uns",
+    "privacy_policy": "Datenschutzrichtlinie"
+  },
+  "ja": {
+    "vat_calculator_+": "付加価値税計算機 +",
+    "special_rate: ": "特別税率: ",
+    "calculate": "計算する",
+    "add_vat": "VATを加える",
+    "deduct_vat": "VATを差し引く",
+    "transaction_amount: ": "取引額: ",
+    "vat_amount": "VAT額: ",
+    "result": "結果: ",
+    "contact_us": "お問い合わせ",
+    "privacy_policy": "プライバシーポリシー"
+  },
+  "ku": {
+    "vat_calculator_+": "Hesabkarê Bacê +",
+    "special_rate: ": "rêjeya taybet: ",
+    "calculate": "hesibandin",
+    "add_vat": "Bacê zêde bike",
+    "deduct_vat": "Bacê kêm bike",
+    "transaction_amount: ": "mîqdara işlemê: ",
+    "vat_amount": "mîqdara bacê: ",
+    "result": "encam: ",
+    "contact_us": "pêwendî me bikin",
+    "privacy_policy": "Siyaseta taybetî"
+  },
+  "pt": {
+    "vat_calculator_+": "Calculadora de IVA +",
+    "special_rate: ": "taxa especial: ",
+    "calculate": "calcular",
+    "add_vat": "Adicionar IVA",
+    "deduct_vat": "Deduzir IVA",
+    "transaction_amount: ": "valor da transação: ",
+    "vat_amount": "valor do IVA: ",
+    "result": "resultado: ",
+    "contact_us": "contate-nos",
+    "privacy_policy": "política de privacidade"
+  },
+  "ru": {
+    "vat_calculator_+": "Калькулятор НДС +",
+    "special_rate: ": "специальная ставка: ",
+    "calculate": "рассчитать",
+    "add_vat": "Добавить НДС",
+    "deduct_vat": "Вычесть НДС",
+    "transaction_amount: ": "сумма транзакции: ",
+    "vat_amount": "сумма НДС: ",
+    "result": "результат: ",
+    "contact_us": "свяжитесь с нами",
+    "privacy_policy": "политика конфиденциальности"
+  },
+  "es": {
+    "vat_calculator_+": "Calculadora de IVA +",
+    "special_rate: ": "tarifa especial: ",
+    "calculate": "calcular",
+    "add_vat": "Agregar IVA",
+    "deduct_vat": "Restar IVA",
+    "transaction_amount: ": "monto de la transacción: ",
+    "vat_amount": "monto del IVA: ",
+    "result": "resultado: ",
+    "contact_us": "contáctanos",
+    "privacy_policy": "política de privacidad"
+  },
+  "tr": {
+    "vat_calculator_+": "KDV Hesaplayıcı +",
+    "special_rate: ": "özel oran: ",
+    "calculate": "hesapla",
+    "add_vat": "KDV Ekle",
+    "deduct_vat": "KDV Düş",
+    "transaction_amount: ": "işlem tutarı: ",
+    "vat_amount": "KDV Tutarı: ",
+    "result": "sonuç: ",
+    "contact_us": "bize ulaşın",
+    "privacy_policy": "gizlilik politikası"
+  }
+}

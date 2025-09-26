@@ -1,0 +1,20 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "حاسبة الضريبة +";
+"enter_amount" = "أدخل المبلغ (مثال:100)";
+"special_rate" = "سعر خاص: ";
+"enter_special_rate" = "(مثال:5)";
+"calculate" = "احسب";
+"add_vat" = "أضف الضريبة";
+"deduct_vat" = "اطرح الضريبة";
+"transaction_amount" = "مبلغ المعاملة: ";
+"vat_amount" = "مقدار الضريبة: ";
+"result" = "النتيجة: ";
+"contact_us" = "اتصل بنا ";
+"privacy_policy" = "سياسة الخصوصية ";
+

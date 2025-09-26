@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "付加価値税計算機 +";
+"enter_amount" = "金額を入力してください（例:100）";
+"special_rate" = "特別税率: ";
+"enter_special_rate" = "(例:5)";
+"calculate" = "計算する";
+"add_vat" = "VATを加える";
+"deduct_vat" = "VATを差し引く";
+"transaction_amount" = "取引額: ";
+"vat_amount" = "VAT額: ";
+"result" = "結果: ";
+"contact_us" = " お問い合わせ";
+"privacy_policy" = " プライバシーポリシー";

@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "KDV Hesaplayıcı +";
+"enter_amount" = "tutarı girin:(örn:100)";
+"special_rate" = "özel oran: ";
+"enter_special_rate" = "(ör:5)";
+"calculate" = "hesapla";
+"add_vat" = "KDV Ekle";
+"deduct_vat" = "KDV Düş";
+"transaction_amount" = "işlem tutarı: ";
+"vat_amount" = "kdv tutarı: ";
+"result" = "sonuç: ";
+"contact_us" = " bize ulaşın";
+"privacy_policy" = " gizlilik politikası";

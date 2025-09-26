@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "增值税计算器 +";
+"enter_amount" = "输入金额（例如:100）";
+"special_rate" = "特别税率: ";
+"enter_special_rate" = "(例如:5)";
+"calculate" = "计算";
+"add_vat" = "加增值税";
+"deduct_vat" = "减增值税";
+"transaction_amount" = "交易金额: ";
+"vat_amount" = "增值税金额: ";
+"result" = "结果: ";
+"contact_us" = " 联系我们";
+"privacy_policy" = " 隐私政策";

@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "MwSt-Rechner +";
+"enter_amount" = "betrag eingeben (z.B.:100)";
+"special_rate" = "Sondertarif: ";
+"enter_special_rate" = "(z.B.:5)";
+"calculate" = "berechnen";
+"add_vat" = "MwSt hinzufügen";
+"deduct_vat" = "MwSt abziehen";
+"transaction_amount" = "Transaktionsbetrag: ";
+"vat_amount" = "MwSt-Betrag: ";
+"result" = "Ergebnis: ";
+"contact_us" = " Kontaktieren Sie uns";
+"privacy_policy" = " Datenschutzrichtlinie";

@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "Calculadora de IVA +";
+"enter_amount" = "ingrese el monto (ej:100)";
+"special_rate" = "tarifa especial: ";
+"enter_special_rate" = "(ej:5)";
+"calculate" = "calcular";
+"add_vat" = "Agregar IVA";
+"deduct_vat" = "Restar IVA";
+"transaction_amount" = "monto de la transacción: ";
+"vat_amount" = "monto del iva: ";
+"result" = "resultado: ";
+"contact_us" = " contáctanos";
+"privacy_policy" = " política de privacidad";

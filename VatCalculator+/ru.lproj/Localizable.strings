@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "Калькулятор НДС +";
+"enter_amount" = "введите сумму (например:100)";
+"special_rate" = "специальная ставка: ";
+"enter_special_rate" = "(eg:5)";
+"calculate" = "рассчитать";
+"add_vat" = "Добавить НДС";
+"deduct_vat" = "Вычесть НДС";
+"transaction_amount" = "сумма транзакции: ";
+"vat_amount" = "сумма ндс: ";
+"result" = "результат: ";
+"contact_us" = " свяжитесь с нами";
+"privacy_policy" = " политика конфиденциальности";

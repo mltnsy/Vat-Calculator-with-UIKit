@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  VatCalculator+
+//
+//  Created by Mustafa Altınsoy on 26.09.2025.
+//
+
+"vat_calculator_+" = "Hesabkarê Bacê +";
+"enter_amount" = "mîqdara binivîse (mînak:100)";
+"special_rate" = "rêjeya taybet: ";
+"enter_special_rate" = "(mîn:5)";
+"calculate" = "hesibandin";
+"add_vat" = "Bacê zêde bike";
+"deduct_vat" = "Bacê kêm bike";
+"transaction_amount" = "mîqdara işlemê: ";
+"vat_amount" = "mîqdara bacê: ";
+"result" = "encam: ";
+"contact_us" = " pêwendî me bikin";
+"privacy_policy" = " Siyaseta taybetî";
