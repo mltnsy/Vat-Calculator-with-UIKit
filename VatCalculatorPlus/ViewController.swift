@@ -11,6 +11,7 @@ import GoogleMobileAds
 class ViewController: UIViewController,UITextFieldDelegate {
     //MARK:ADS
     private var bannerView: BannerView!
+    @IBOutlet weak var supportStackView: UIStackView!
     
     //MARK:VARIABLES
     let appTitle: String = NSLocalizedString("vat_calculator_+", comment: "")
@@ -40,6 +41,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var transactionAmountLabel: UILabel!
     @IBOutlet weak var vatAmountLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var clickedCopyButtonOneOutlet: UIButton!
+    @IBOutlet weak var clickedCopyButtonTwoOutlet: UIButton!
     @IBOutlet weak var clickedCalculateButtonOutlet: UIButton!
     @IBOutlet weak var clickedOneRateButtonOutlet: UIButton!
     @IBOutlet weak var clickedTenRateButtonOutlet: UIButton!
@@ -52,20 +55,22 @@ class ViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //IOS18 check about copy button icon change.
+        if #available(iOS 18.0, *) {
+            clickedCopyButtonOneOutlet.setImage(UIImage(systemName: "document.on.document.fill"), for: .normal)
+            clickedCopyButtonTwoOutlet.setImage(UIImage(systemName: "document.on.document.fill"), for: .normal)
+        } else {
+            clickedCopyButtonOneOutlet.setImage(UIImage(systemName: "doc.on.doc.fill"), for: .normal)
+            clickedCopyButtonTwoOutlet.setImage(UIImage(systemName: "doc.on.doc.fill"), for: .normal)
+        }
+
+        
         //create banner
         bannerView = BannerView(adSize: AdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716" //test banner ID
+        bannerView.adUnitID = "ca-app-pub-8295883188188812/3928571174"
         bannerView.rootViewController = self
         bannerView.load(Request())
-        
-        // for autolayout
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        
-        NSLayoutConstraint.activate([
-            bannerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -120),
-            bannerView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-        ])
+        supportStackView.addArrangedSubview(bannerView)
         
         amountTextField.delegate = self
         appTitleLabel.text = appTitle
@@ -83,7 +88,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         formatter.numberStyle = .currency
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
-        formatter.locale = .current
+        formatter.locale = Locale.current
         
     }
     

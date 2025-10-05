@@ -110,7 +110,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="X6K-ZH-T6B" userLabel="Calculate Label Stack View">
-                                <rect key="frame" x="10" y="262.5" width="300" height="203.5"/>
+                                <rect key="frame" x="10" y="276" width="300" height="176.5"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Kd-IK-oEW">
                                         <rect key="frame" x="63" y="0.0" width="174" height="32"/>
@@ -129,19 +129,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-oX-RC0">
-                                        <rect key="frame" x="77" y="107.5" width="146" height="34"/>
+                                        <rect key="frame" x="91" y="107.5" width="118.5" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vat amount: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-5H-aF3">
-                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zct-d9-BFI" userLabel="copy">
-                                                <rect key="frame" x="94.5" y="0.0" width="51.5" height="34"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zct-d9-BFI" userLabel="Clicked Copy Button One Outlet">
+                                                <rect key="frame" x="94.5" y="0.0" width="24" height="20.5"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="document.on.document.fill" catalog="system"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <action selector="clickedCopyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uX1-ir-iJt"/>
                                                 </connections>
@@ -149,19 +149,19 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Wx-ow-52F">
-                                        <rect key="frame" x="97" y="169.5" width="106.5" height="34"/>
+                                        <rect key="frame" x="110.5" y="156" width="79" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLb-je-DDn">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="20.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUZ-TX-b03">
-                                                <rect key="frame" x="55" y="0.0" width="51.5" height="34"/>
+                                                <rect key="frame" x="55" y="0.0" width="24" height="20.5"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="document.on.document.fill" catalog="system"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <action selector="clickedCopyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giK-dd-LUS"/>
                                                 </connections>
@@ -171,26 +171,32 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vA7-Fg-2He" userLabel="Supports Stack View">
-                                <rect key="frame" x="20" y="471" width="280" height="77"/>
+                                <rect key="frame" x="20" y="493.5" width="280" height="54.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-8r-Fav">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="34.5"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="envelope.fill" catalog="system" title=" contact us"/>
-                                        <connections>
-                                            <action selector="clickedContactUsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="77G-XI-E6c"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMO-3o-3yb">
-                                        <rect key="frame" x="0.0" y="42.5" width="280" height="34.5"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="lock.fill" catalog="system" title=" privacy policy"/>
-                                        <connections>
-                                            <action selector="clickedPrivacyPolicyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB9-yz-fz9"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kd7-fo-SWg">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="54.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-8r-Fav">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="54.5"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="envelope.fill" catalog="system" title=" contact us"/>
+                                                <connections>
+                                                    <action selector="clickedContactUsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="77G-XI-E6c"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMO-3o-3yb">
+                                                <rect key="frame" x="144" y="0.0" width="136" height="54.5"/>
+                                                <rect key="contentStretch" x="0.5" y="0.0" width="1" height="1"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="lock.fill" catalog="system" title=" privacy policy"/>
+                                                <connections>
+                                                    <action selector="clickedPrivacyPolicyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB9-yz-fz9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -221,6 +227,8 @@
                         <outlet property="amountTextField" destination="wlD-R8-WaV" id="5Qe-lE-tTe"/>
                         <outlet property="appTitleLabel" destination="Mxi-8f-QMU" id="JxV-UI-hmU"/>
                         <outlet property="clickedCalculateButtonOutlet" destination="vQ9-ci-CGw" id="Kl1-4Z-UbL"/>
+                        <outlet property="clickedCopyButtonOneOutlet" destination="Zct-d9-BFI" id="QLg-1d-9pd"/>
+                        <outlet property="clickedCopyButtonTwoOutlet" destination="BUZ-TX-b03" id="6La-tX-Z4o"/>
                         <outlet property="clickedOneRateButtonOutlet" destination="ody-Nt-ddh" id="Wpz-0v-f4a"/>
                         <outlet property="clickedTenRateButtonOutlet" destination="0c7-mE-BSh" id="25g-9p-7eP"/>
                         <outlet property="clickedTwentyRateButtonOutlet" destination="xeU-yw-48f" id="E2R-qG-QGg"/>
@@ -230,6 +238,7 @@
                         <outlet property="sgControlOutlet" destination="1Kd-IK-oEW" id="CBI-X8-AoK"/>
                         <outlet property="specialRateLabel" destination="uaE-12-oTB" id="Tyl-Hi-iSG"/>
                         <outlet property="specialRateTextField" destination="aFb-E1-YRQ" id="Izr-4t-p4W"/>
+                        <outlet property="supportStackView" destination="vA7-Fg-2He" id="cyv-8k-2J3"/>
                         <outlet property="transactionAmountLabel" destination="64d-86-cTE" id="yU2-J4-1jD"/>
                         <outlet property="vatAmountLabel" destination="ogV-5H-aF3" id="HNQ-Bj-ZEX"/>
                     </connections>
@@ -240,7 +249,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="document.on.document.fill" catalog="system" width="112" height="128"/>
         <image name="envelope.fill" catalog="system" width="128" height="85"/>
         <image name="lock.fill" catalog="system" width="111" height="128"/>
         <systemColor name="labelColor">
